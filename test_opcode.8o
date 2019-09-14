@@ -62,8 +62,8 @@ v5 := 42
 v6 := 43
 #test 3x
 drawop im3 imX
-i := imagefalse
-if v6 != 42 then i := imageok
+i := imageok
+if v6 != 43 then i := imagefalse
 sprite x2 y 4
 #test 4x
 y := 6
