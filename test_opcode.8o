@@ -156,7 +156,7 @@ v7 := 120
 v7 -= v6
 if v7 == 236 then i := imageok
 sprite x2 y 4
-#test 8xy6
+#test 8xyE
 y := 6
 drawop im8 im6
 i := imagefalse
@@ -164,7 +164,7 @@ v6 := 224
 v6 <<= v6
 if v6 == 192 then i := imageok
 sprite x2 y 4
-#test 8xyE
+#test 8xy6
 y := 11
 drawop im8 imE
 i := imagefalse
