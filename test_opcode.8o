@@ -42,8 +42,8 @@ i := B
 sprite x1 y 4
 }
 
-: testAX
-#test Ax
+: test2X
+#test 2x
 i := imageok
 sprite x2 y 4
 return
@@ -90,10 +90,10 @@ drawop im9 imX
 i := imagefalse
 if v5 == v6 then i := imageok
 sprite x2 y 4
-#test AX
+#test 2X
 y := 26
-drawop imA imX
-testAX
+drawop im2 imX
+test2X
 #test 0E
 x0 := 23
 x1 := 27
